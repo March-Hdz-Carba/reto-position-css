@@ -1,0 +1,40 @@
+body {
+    background: #AF7AC5;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+
+#sun {
+    height: 250px;
+    position: fixed;
+    right: -30px;
+    top: 0;
+    width: 250px;
+    z-index: 1;
+}
+
+#hot-air-ballon {
+    height: 270px;
+    position: fixed;
+    top: 250px;
+    width: 270px;
+    z-index: 1;
+}
+
+.cloud {
+    height: 150px;
+    width: 150px;
+}
+
+.row-cloud {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+}
